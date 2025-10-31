@@ -71,10 +71,7 @@ function createMenuItem(item) {
             <p class="menu-item-description">${item.description}</p>
             <div class="menu-item-footer">
                 <span class="menu-item-price">${formatPrice(item.price)} <small>جنيه</small></span>
-                <button class="add-to-order-btn" data-item="${item.name}" data-price="${item.price}">
-                    <i class="fas fa-plus"></i>
-                    <span>اطلب</span>
-                </button>
+                
             </div>
         </div>
     `;
@@ -263,15 +260,6 @@ scrollTopBtn.addEventListener('click', () => {
     });
 });
 
-// =========================
-// WhatsApp Float Button Animation
-// =========================
-// const whatsappFloat = document.getElementById('whatsapp-float');
-
-// Add click tracking
-// whatsappFloat.addEventListener('click', () => {
-//     console.log('WhatsApp button clicked');
-// });
 
 // =========================
 // Active Navigation Link Highlight

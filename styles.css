@@ -379,6 +379,32 @@ ul {
     font-weight: 500;
 }
 
+.menu-image-container {
+    position: relative;
+    max-width: 900px;
+    margin: 3rem auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px var(--shadow);
+    transition: all 0.4s ease;
+}
+
+.menu-image-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 35px var(--shadow);
+}
+
+.menu-full-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.menu-image-container:hover .menu-full-image {
+    transform: scale(1.05);
+}
+
 /* Menu Tabs */
 .menu-tabs {
     display: flex;
@@ -973,7 +999,7 @@ ul {
     text-decoration: underline;
 }
 
-.whatsapp-link {
+.phone-link {
     display: inline-block;
     padding: 0.8rem 2rem;
     background-color: var(--white);
@@ -985,7 +1011,7 @@ ul {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.whatsapp-link:hover {
+.phone-link:hover {
     background-color: rgba(255, 255, 255, 0.9);
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);

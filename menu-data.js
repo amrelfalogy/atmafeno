@@ -126,7 +126,7 @@ const menuData = {
                 {
                     name: 'بطاطس',
                     description: 'بطاطس مقلية مقرمشة ولذيذة',
-                    price: 20,
+                    price: 30,
                     image: 'assets/imgs/fries.jpg',
                     badge: { text: 'إضافي', type: 'extra' }
                 }

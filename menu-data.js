@@ -54,7 +54,7 @@ const menuData = {
                 {
                     name: 'حواوشي مخصوص',
                     description: 'حواوشي باللحم المفروم والبهارات الخاصة',
-                    price: 25,
+                    price: 45,
                     image: 'assets/imgs/hwawshi.jpg'
                 },
                 {

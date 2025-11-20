@@ -18,8 +18,7 @@ function generateMenu() {
         const tabButton = document.createElement('button');
         tabButton.className = `menu-tab ${index === 0 ? 'active' : ''}`;
         tabButton.setAttribute('data-category', category.id);
-        tabButton.innerHTML = `
-            <i class="${category.icon}"></i>
+        tabButton.innerHTML = `           
             <span>${category.name}</span>
         `;
         menuTabsContainer.appendChild(tabButton);
@@ -53,26 +52,21 @@ function generateMenu() {
 function createMenuItem(item) {
     const card = document.createElement('div');
     card.className = 'menu-item-card fade-in-section';
-    
-    // Create badge HTML if exists
-    const badgeHTML = item.badge ? `
-        <div class="menu-item-badge ${item.badge.type}">
-            ${item.badge.text}
-        </div>
-    ` : '';
-    
-    card.innerHTML = `
-        <div class="menu-item-image">
-            <img src="${item.image}" alt="${item.name}">
-            ${badgeHTML}
-        </div>
+                
+    card.innerHTML = `    
         <div class="menu-item-content">
-            <h4 class="menu-item-title">${item.name}</h4>
-            <p class="menu-item-description">${item.description}</p>
+            <div class="menu-item-body">
+                <h4 class="menu-item-title">${item.name}</h4>
+                <p class="menu-item-description">${item.description}</p>
+            </div>
             <div class="menu-item-footer">
                 <span class="menu-item-price">${formatPrice(item.price)} <small>جنيه</small></span>
                 
             </div>
+        </div>
+         <div class="menu-item-image">
+            <img src="${item.image}" alt="${item.name}">
+            
         </div>
     `;
     

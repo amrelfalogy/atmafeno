@@ -54,6 +54,9 @@ function createMenuItem(item) {
     card.className = 'menu-item-card fade-in-section';
                 
     card.innerHTML = `    
+        <div class="menu-item-image">
+            <img src="${item.image}" alt="${item.name}">
+        </div>
         <div class="menu-item-content">
             <div class="menu-item-body">
                 <h4 class="menu-item-title">${item.name}</h4>
@@ -63,10 +66,6 @@ function createMenuItem(item) {
                 <span class="menu-item-price">${formatPrice(item.price)} <small>جنيه</small></span>
                 
             </div>
-        </div>
-         <div class="menu-item-image">
-            <img src="${item.image}" alt="${item.name}">
-            
         </div>
     `;
     

@@ -8,34 +8,34 @@ const menuData = {
                 {
                     name: 'كبدة إسكندراني',
                     description: 'كبدة طازجة متبلة بالبهارات الإسكندرانية الأصيلة',
-                    price: 25,
-                    image: 'assets/imgs/1.jpg',
+                    price: 30,
+                    image: 'assets/imgs/kebda.jpg',
                     badge: { text: 'أكثر مبيعاً', type: 'bestseller' }
                 },
                 {
                     name: 'كبدة فراخ',
                     description: 'كبدة فراخ طازجة بنكهة مميزة',
-                    price: 25,
-                    image: 'assets/imgs/cheken.jpg'
+                    price: 30,
+                    image: 'assets/imgs/kebdafrakh.jpg'
                 },
                 {
                     name: 'سجق اسكندراني مفروم اصلي',
                     description: 'سجق مفروم على الطريقة الإسكندرانية الأصيلة',
-                    price: 25,
-                    image: 'assets/imgs/2.jpg',
+                    price: 30,
+                    image: 'assets/imgs/mafroom.jpg',
                     badge: { text: 'حار 🔥', type: 'hot' }
                 },
                 {
                     name: 'سجق اسكندراني مدخن اصلي',
                     description: 'سجق مدخن بنكهة فريدة ومميزة',
-                    price: 25,
-                    image: 'assets/imgs/3.jpg'
+                    price: 30,
+                    image: 'assets/imgs/terky.jpg'
                 },
                 {
                     name: 'سجق شرقي مخصوص',
                     description: 'سجق بالتوابل الشرقية الخاصة',
-                    price: 25,
-                    image: 'assets/imgs/special.jpg'
+                    price: 30,
+                    image: 'assets/imgs/shar2y.jpg'
                 }
             ]
         },
@@ -47,20 +47,39 @@ const menuData = {
                 {
                     name: 'كفتة داوود باشا',
                     description: 'كفتة لحم بصوص الطماطم الشهي',
-                    price: 25,
+                    price: 30,
                     image: 'assets/imgs/dawood.jpg',
                     badge: { text: 'مميز', type: 'featured' }
                 },
                 {
-                    name: 'حواوشي مخصوص',
+                    name: 'حواوشي لحمة مخصوص',
                     description: 'حواوشي باللحم المفروم والبهارات الخاصة',
-                    price: 45,
-                    image: 'assets/imgs/hwawshi.jpg'
+                    price: 60,
+                    image: 'assets/imgs/hawawshi.jpg'
+                },
+                {
+                    name: 'حواوشي سجق مخصوص',
+                    description: 'حواوشي سجق بنكهة مميزة وبهارات خاصة',
+                    price: 60,
+                    image: 'assets/imgs/hawawshi2.jpg'
+                },
+                {
+                    name: ' حواوشي كبدة اسكندراني',
+                    description: 'حواوشي كبدة اسكندراني طازجة ومتبلة بالبهارات',
+                    price: 60,
+                    image: 'assets/imgs/hawawshi3.png'
+                },
+                {
+                    name: 'استريبس ',
+                    description: 'قطع دجاج مقرمشة ومتبلة بالبهارات الخاصة',
+                    price: 60,
+                    image: 'assets/imgs/strips.jpg',
+                    badge: { text: 'بريميوم', type: 'premium' }
                 },
                 {
                     name: 'هامبورجر بيج تيستي',
                     description: 'برجر ضخم بلحم بقري فاخر مع جبنة وخضار',
-                    price: 65,
+                    price: 70,
                     image: 'assets/imgs/burger.jpg',
                     badge: { text: 'بريميوم', type: 'premium' }
                 }
@@ -74,20 +93,20 @@ const menuData = {
                 {
                     name: 'قشطة بلدي بالعسل',
                     description: 'قشطة بلدي طازجة مع عسل نحل طبيعي',
-                    price: 25,
+                    price: 30,
                     image: 'assets/imgs/honey.jpg',
                     badge: { text: 'حلو 🍯', type: 'sweet' }
                 },
                 {
                     name: 'قشطة بلدي بالمربي',
                     description: 'قشطة بلدي مع مربى الفراولة اللذيذة',
-                    price: 25,
+                    price: 30,
                     image: 'assets/imgs/sweet1.jpg'
                 },
                 {
                     name: 'قشطة بلدي',
                     description: 'قشطة بلدي طازجة سادة',
-                    price: 25,
+                    price: 30,
                     image: 'assets/imgs/butter.jpg'
                 }
             ]
@@ -107,7 +126,7 @@ const menuData = {
                 {
                     name: 'حاجه ساقعة',
                     description: 'مشروبات باردة متنوعة',
-                    price: 20,
+                    price: 25,
                     image: 'assets/imgs/drinks.jpg'
                 },
                 {
